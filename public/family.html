@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
 
-    <link rel="stylesheet" href="../Quartz.css" />
+    <link rel="stylesheet" href="../Journal.css" />
   </head>
   <body>
     <!-- Nave bar -->
@@ -92,33 +92,62 @@
       <div class="text-center">
         <h1>Beloved Family Members</h1>
       </div>
-
-      <ul>
+      <br />
+      <ul class="list-unstyled">
         <li>
-          <h2>The Baron Zelenskyy</h2>
-          <img
-            src="../assets/images/baron.jpg"
-            alt="cat"
-            height="400"
-            class="img-fluid rounded"
-          />
+          <div class="card mb-3 w-75 mx-auto">
+            <h3 class="card-header">The Baron Zelenskyy</h3>
+
+            <img
+              src="../assets/images/baron.jpg"
+              alt="cat"
+              class="d-block user-select-none"
+              width="100%"
+            />
+          </div>
         </li>
 
         <li>
-          <h2>Winnie the Corg</h2>
+          <div class="card mb-3 w-75 mx-auto">
+            <h3 class="card-header">Winnie the Corg</h3>
 
-          <img
-            src="../assets/images/winnie.jpg"
-            alt="dog"
-            height="400"
-            class="img-fluid rounded"
-          />
+            <img
+              src="../assets/images/winnie.jpg"
+              alt="dog"
+              class="d-block user-select-none"
+              width="100%"
+            />
+          </div>
         </li>
       </ul>
-      <footer class="mt-5 text-center">
-        <p>© Chen Zhou. All rights reserved.</p>
+      <footer id="footer">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-between">
+            <!-- Main Links -->
+            <ul class="list-unstyled d-flex">
+              <li class="me-3">
+                <a href="https://www.linkedin.com/in/chen-zhou-4333b047/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="me-3">
+                <a href="https://tangchuanc.medium.com/">Medium</a>
+              </li>
+              <li class="me-3">
+                <a href="https://twitter.com/chenzhou63">Twitter</a>
+              </li>
+              <li><a href="https://github.com/Lenore8963">GitHub</a></li>
+            </ul>
+
+            <!-- Back to Top Link -->
+            <ul class="list-unstyled">
+              <li class="float-end"><a href="#top">Back to top</a></li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
+
     <!-- Bootstrap JS (and its dependencies) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
