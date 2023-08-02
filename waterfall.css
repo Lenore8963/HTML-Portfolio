@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.waterfall {
+  /* Adjust this for the number of columns you want */
+  column-count: 3;
+  column-gap: 15px;
+}
+
+.waterfall img {
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.waterfall img:hover {
+  transform: scale(1.05);
+}
