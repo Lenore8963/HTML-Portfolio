@@ -1,9 +1,13 @@
 .waterfall {
   /* Adjust this for the number of columns you want */
-  column-count: 2;
+  column-count: 3;
   column-gap: 15px;
 }
-
+@media (max-width: 767.98px) {
+  .waterfall {
+    column-count: 1;
+  }
+}
 .waterfall li {
   width: 100%;
   margin-bottom: 15px;
