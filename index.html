@@ -11,6 +11,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="./Journal.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./public/waterfall-list.css" />
   </head>
 
   <body>
@@ -116,32 +118,30 @@
       </div>
 
       <div class="my-5">
-        <h2 class="text-center"><i class="fas fa-briefcase"></i> Portfolio</h2>
+        <h2 class="text-center"><i class="fas fa-briefcase"></i> Projects</h2>
 
         <ul class="list-unstyled">
           <!-- Portfolio 1 -->
 
           <li>
             <div class="card mb-3 w-75 mx-auto">
-              <h3 class="card-header">
-                <a
-                  href="https://github.com/Lenore8963/Building_a_soccer_team.git"
-                  target="_blank"
-                  >Soccer Team Manager</a
-                >
-              </h3>
-
+              <h3 class="card-header">Doggo Mingo Website</h3>
+              <img
+                src="./assets/images/doggo-website.gif"
+                alt="doggo website screenshot"
+                class="d-block user-select-none"
+                width="100%"
+              />
               <ul class="list-group list-group-flush lead">
                 <li class="list-group-item">
-                  A Java application for managing a U10 soccer team. It allows
-                  users to input player details, add players to the team, and
-                  create the team with a sorted starting lineup. The application
-                  follows the Model-View-Controller (MVC) design pattern.
+                  Designed and developed a social platform focusing on community
+                  building and engagement, featuring profile creation, following
+                  functionalities, and role-specific posting.
                 </li>
                 <li class="list-group-item">
-                  Achieved the Graphical User Interface (GUI) by Java Swing;
-                  Applied Test Driven Development (TDD) and wrote unit tests
-                  using Junit.
+                  The responsive, secure full-stack web application was created
+                  using React and Node, employing MongoDB Atlas and AWS for data
+                  storage, and deployed via Git and Heroku.
                 </li>
               </ul>
             </div>
@@ -151,57 +151,165 @@
 
           <li>
             <div class="card mb-3 w-75 mx-auto">
-              <h3 class="card-header">
-                <a
-                  href="https://github.com/Lenore8963/Vancouver_property_values.git"
-                  target="_blank"
-                  >Vancouver Property Value Analysis</a
-                >
-              </h3>
-
+              <h3 class="card-header">Vancouver Real Estate Prices Analysis</h3>
+              <img
+                src="./assets/images/decision-tree.gif"
+                alt="doggo website screenshot"
+                class="d-block user-select-none"
+                width="100%"
+              />
               <ul class="list-group list-group-flush lead">
                 <li class="list-group-item">
-                  Conducted in-depth data analysis of the Vancouver real estate
-                  market using Python. Analyzed housing data, assessed property
-                  values and trends, asking price/assessed values and extracted
-                  vital statistics to identify irregular transactions.
+                  Introduced a Decision Tree regression model in Python to
+                  predict Vancouver real estate prices. Implemented and
+                  visualized data using Python libraries like Pandas,
+                  Matplotlib, and Seaborn.
                 </li>
                 <li class="list-group-item">
-                  Empowered the public with knowledge regarding the real estate
-                  market and helped monitor potential speculative and fraudulent
-                  activities.
+                  The model achieved an R-squared value of 0.88, demonstrating
+                  strong predictive performance.
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Portfolio 3 -->
+
+          <li>
+            <div class="card mb-3 w-75 mx-auto">
+              <h3 class="card-header">Pawlog Mobile App</h3>
+              <div class="responsive-iframe-container">
+                <iframe
+                  src="https://www.youtube.com/embed/5aj6d29A3ys"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  Built a React Native mobile application integrated with
+                  Firebase for database management and user authentication.
+                </li>
+                <li class="list-group-item">
+                  Included functionalities for tracking daily dog care routines,
+                  capturing and storing photos, mapping dog walking routes
+                  interactively, and sending notifications for community
+                  engagement.
                 </li>
               </ul>
             </div>
           </li>
         </ul>
       </div>
+
+      <div class="my-5">
+        <h2 class="text-center"><i class="fas fa-briefcase"></i> Hackathon</h2>
+
+        <ul class="list-unstyled">
+          <!-- Portfolio 1 -->
+
+          <li>
+            <div class="card mb-3 w-75 mx-auto">
+              <h3 class="card-header">Hackathon 4 Good Champion</h3>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  Led a team to first place by developing an innovative solution
+                  to enhance the BC United Way’s ability to distribute essential
+                  health products.
+                </li>
+                <li class="list-group-item">
+                  Designed and implemented a logistics optimization algorithm,
+                  reducing distribution time by 120%.
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Portfolio 2 -->
+
+          <li>
+            <div class="card mb-3 w-75 mx-auto">
+              <h3 class="card-header">Spexi Geospatial Hackathon Winner</h3>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  Developed a technology-business hybrid solution for a drone
+                  computer vision company, securing first place.
+                </li>
+                <li class="list-group-item">
+                  Integrated real-time image processing with market analysis
+                  tools to create a comprehensive business solution.
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
       <div class="my-5">
         <h2 class="text-center"><i class="fas fa-tools"></i> Skills</h2>
 
         <ul class="list-unstyled text-center">
           <li>
-            <h4>Programming</h4>
+            <h4>Programming Languages</h4>
             <ul class="list-inline lead">
-              <li class="list-inline-item">Java</li>
               <li class="list-inline-item">Python</li>
+              <li class="list-inline-item">Java</li>
               <li class="list-inline-item">JavaScript</li>
+              <li class="list-inline-item">TypeScript</li>
+              <li class="list-inline-item">SQL</li>
               <li class="list-inline-item">HTML</li>
               <li class="list-inline-item">CSS</li>
+              <li class="list-inline-item">R</li>
+              <li class="list-inline-item">C</li>
+              <li class="list-inline-item">Bash</li>
             </ul>
           </li>
           <li>
-            <h4>Communication</h4>
+            <h4>Domains</h4>
             <ul class="list-inline lead">
-              <li class="list-inline-item">English</li>
-              <li class="list-inline-item">Mandarin</li>
+              <li class="list-inline-item">Data Structures</li>
+              <li class="list-inline-item">Algorithms</li>
+              <li class="list-inline-item">Design Patterns</li>
+              <li class="list-inline-item">Test Driven Development</li>
+              <li class="list-inline-item">Object-Oriented Design</li>
+              <li class="list-inline-item">Agile Methodologies</li>
+              <li class="list-inline-item">Web & Mobile Development</li>
+              <li class="list-inline-item">Data Scraping and Visualization</li>
+              <li class="list-inline-item">Machine Learning</li>
+              <li class="list-inline-item">AI</li>
             </ul>
           </li>
           <li>
-            <h4>Leadership</h4>
+            <h4>Tools</h4>
             <ul class="list-inline lead">
-              <li class="list-inline-item">Teamwork</li>
-              <li class="list-inline-item">Project Management</li>
+              <li class="list-inline-item">React</li>
+              <li class="list-inline-item">React Native</li>
+              <li class="list-inline-item">Node.js</li>
+              <li class="list-inline-item">Next.js</li>
+              <li class="list-inline-item">Tailwind</li>
+              <li class="list-inline-item">MySQL</li>
+              <li class="list-inline-item">MongoDB</li>
+              <li class="list-inline-item">Expo</li>
+              <li class="list-inline-item">Firebase</li>
+              <li class="list-inline-item">Jest</li>
+              <li class="list-inline-item">JUnit</li>
+              <li class="list-inline-item">Git</li>
+              <li class="list-inline-item">Linux</li>
+              <li class="list-inline-item">Docker</li>
+              <li class="list-inline-item">AWS</li>
+              <li class="list-inline-item">Azure</li>
+              <li class="list-inline-item">Streamlit</li>
+              <li class="list-inline-item">matplotlib</li>
+              <li class="list-inline-item">scikit-learn</li>
+              <li class="list-inline-item">TensorFlow</li>
+              <li class="list-inline-item">OpenCV</li>
+              <li class="list-inline-item">YOLO</li>
+              <li class="list-inline-item">Jupyter</li>
+              <li class="list-inline-item">QGIS</li>
+              <li class="list-inline-item">Beautiful Soup</li>
+              <li class="list-inline-item">Selenium</li>
+              <li class="list-inline-item">Scrapy</li>
             </ul>
           </li>
         </ul>
@@ -211,13 +319,52 @@
         <h2 class="text-center">
           <i class="fas fa-certificate"></i> Certifications
         </h2>
+      </div>
 
-        <ul class="list-unstyled">
+      <ul class="my-5 list-unstyled">
+        <div class="waterfall">
           <li>
-            <div class="card mb-3 w-75 mx-auto">
+            <div class="card mx-auto">
               <h3 class="card-header">
-                Object Oriented Programming in Java - Coursera (June 2023)
+                AWS Academy Graduate - AWS Academy Cloud Architecting
               </h3>
+
+              <a
+                href="https://www.credly.com/badges/65a42e9e-0028-42ef-af4e-cb822399e831/linked_in_profile"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/AWS.png"
+                  alt="Azure Certification"
+                  class="d-block user-select-none"
+                  width="100%"
+              /></a>
+            </div>
+          </li>
+          <li>
+            <div class="card mx-auto">
+              <h3 class="card-header">
+                Microsoft Certified: Azure Fundamentals
+              </h3>
+
+              <a
+                href="https://learn.microsoft.com/api/credentials/share/en-us/ChenZhou-9383/7E41A02444599A55?sharingId=EBA5A47ACFDBDFBE"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/azure.png"
+                  alt="Azure Certification"
+                  class="d-block user-select-none"
+                  width="100%"
+              /></a>
+            </div>
+          </li>
+          <li>
+            <div class="card mx-auto">
+              <h3 class="card-header">
+                Object Oriented Programming in Java - Coursera
+              </h3>
+
               <a
                 href="https://coursera.org/verify/specialization/FJBQT4UU5WWC"
                 target="_blank"
@@ -230,8 +377,8 @@
               /></a>
             </div>
           </li>
-        </ul>
-      </div>
+        </div>
+      </ul>
 
       <!-- <div class="mt-4">
         <h2><i class="fas fa-info-circle"></i> Other</h2>
